@@ -1,8 +1,12 @@
 # python-ocr-bulk-file-rename-by-main-title
 
 ## About
-This script renames all the graphic files in directory by main title (recognized by text size) extracted by OCR
+* This script renames all the graphic files in directory by main title (recognized by text size) extracted by OCR
+* Removes diacritics and special characters excluding parentheses
+* Replaces whitespaces in filenames with dashes
+* Slice filenames to 255 characters
 
+## Author
 * Maintainer: [Jan Elznic](https://janelznic.cz), <jan@elznic.com>
 * GitHub repo: [https://github.com/janelznic/python-ocr-bulk-file-rename-by-main-title](https://github.com/janelznic/python-ocr-bulk-file-rename-by-main-title)
 
